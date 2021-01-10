@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    title SACHIN DANSE ACADYMY
+    style
+      include ../static/style.css
+  body
+   
+    section#introSection 
+        div Wellcome To My Danse Academy
+        div.small (Any Body Can Danse)
+    
+    section#MissionSection
+        H2 Our Mission  
+        div.card
+            h3 Danse Like This 
+            div.card-box 
+                div.card-img 
+                      img(src="/static/img/4.jpg")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur a possimus co deserunt corrupti?
+        
+        div.card
+            h3 Expert Teaching 
+             div.card-box 
+                div.card-img 
+                      img(src="/static/img/2.jpg")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectet consectetur a tetur aorrupti?
+        
+            
+        div.card
+            h3 Any Body Can Danse
+             div.card-box 
+                div.card-img 
+                      img(src="/static/img/3.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consecteturet consectetur a t a t corrupti?
+
+            
+
+    section#sponsorSection
+        h2 Our Sponsers
+        div#sponsors
+            img(src="/static/img/S1.png", alt="Sponser Image" ,Class= "SpImage")
+            img(src="/static/img/S2.png", alt="Sponser Image" ,Class= "SpImage")
+            img(src="/static/img/S3.png", alt="Sponser Image" ,Class= "SpImage")
+            img(src="/static/img/S4.png", alt="Sponser Image" ,Class= "SpImage")
+
+    
+    footer#footer
+        | Copyright @ 2020 SachinDanseAcademy.com | All rights reserved
+    script
+      include ../static/index.js 
